@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_content"
+    android:background="@color/black"
+    tools:context="com.francis.proxima.MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/white_background_image"
+        android:layout_width="match_parent"
+        android:src="@color/white"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/default_background_image"
+        android:layout_width="match_parent"
+        tools:visibility="gone"
+        android:src="@drawable/backgrounddefault"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="60dp"
+            android:paddingBottom="50dp"
+            android:clipToPadding="false"
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="2dp"
+            android:background="@drawable/back_addtask"
+            android:layout_toStartOf="@+id/addBtn"
+            android:layout_centerVertical="true"
+            >
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="100dp"
+                android:minHeight="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="#fff"
+                android:hint="Type a Message"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/addBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/back_fab"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="5dp"
+            android:elevation="4dp"
+            android:layout_centerInParent="true"
+            >
+            <ImageView
+                android:id="@+id/fab_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_mic_white_24dp"
+                android:tint="#fff"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

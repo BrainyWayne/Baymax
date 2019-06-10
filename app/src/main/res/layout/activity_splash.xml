@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgrounddefault"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/proxima_logo"
+        android:layout_centerInParent="true"
+        android:tint="@color/white"
+        android:transitionName="logo"
+        app:srcCompat="@drawable/ic_proximalogotransparent_pngcut" />
+
+</RelativeLayout>

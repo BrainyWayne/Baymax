@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "32295085648",
+    "firebase_url": "https://baymax-e7d4e.firebaseio.com",
+    "project_id": "baymax-e7d4e",
+    "storage_bucket": "baymax-e7d4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32295085648:android:8c8f5cec6b81fa3d",
+        "android_client_info": {
+          "package_name": "com.francis.proxima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32295085648-12agebt50a9grl0ae5s0qugsi0f4r653.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.francis.proxima",
+            "certificate_hash": "789cbcd0ce4964c63f407ec8f81c68928071f078"
+          }
+        },
+        {
+          "client_id": "32295085648-5mqlvmdnt1tlla2bj00b7ks61qgdohbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGvtX5pyVlN4IebBgGufMSa--v4UHioQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32295085648-5mqlvmdnt1tlla2bj00b7ks61qgdohbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
